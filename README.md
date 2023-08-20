@@ -68,10 +68,48 @@ git push -f origin main
 git pull -f origin main
 ```
 
+# Branchs
+
+## Criar uma nova Branch
+
+```sh
+git branch -b nomeBranch
+```
+
+## Listar todas as Branchs
+
+```sh
+git branch
+```
+
+## Trocar Branch
+
+```sh
+git checkout nomeBranch
+```
+
 # Git Flow (Equipe)
 
 ## Iniciar o Git Flow
 
 ```sh
 git flow init
+```
+
+## Adicionar uma nova feature
+
+```sh
+git flow feature start css
+```
+
+## Publicar as alterações da Branch atual na Develop
+
+```sh
+git flow feature publish css
+```
+
+## Finalizar, transferir para a Develop e excluir a Branch atual
+
+```sh
+git flow feature finish css
 ```
