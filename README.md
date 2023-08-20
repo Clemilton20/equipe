@@ -96,26 +96,32 @@ git checkout nomeBranch
 git flow init
 ```
 
-## Adicionar uma nova feature
+## Adicionar uma nova feature (Função)
 
 ```sh
 git flow feature start css
 ```
 
-## Publicar as alterações da Branch atual na Develop
+## Publicar as alterações da feature (Função) na Develop (Desenvolvimento)
 
 ```sh
 git flow feature publish css
 ```
 
-## Finalizar, transferir para a Develop e excluir a Branch atual
+## Finalizar, transferir para a Develop (Desenvolvimento) e excluir a feature (Função)
 
 ```sh
 git flow feature finish css
 ```
 
-## Criar uma versão de testes (Release)
+## Criar uma versão de release (Testes)
 
 ```sh
 git flow release start 1.0
+```
+
+## finalizar a versão de release (Testes)
+
+```sh
+git flow release finish 1.0
 ```
