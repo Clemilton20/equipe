@@ -59,13 +59,21 @@ git diff arquivo.php
 ## Enviar para GitHub (Upload)
 
 ```sh
+# subindo apenas uma
 git push -f origin main
+
+# subindo todas
+git push -f --all
 ```
 
 ## Baixar versão do GitHub (Download)
 
 ```sh
+# baixando apenas uma
 git pull -f origin main
+
+# baixando todas
+git pull -f --all
 ```
 
 # Branchs
