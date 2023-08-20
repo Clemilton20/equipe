@@ -176,7 +176,8 @@ git merge develop
 ```sh
 main
 develop
-	feature - faz o merge apenas na develop
-	release - faz o merge na develop e main e gera uma nova tag
-	hotfix - faz o merge na develop e main e gera uma nova tag
+	git flow feature publish css # envia para o github e mantem a branch
+	git flow feature finish css # faz o merge apenas na develop
+	git flow release finish 1.0 # faz o merge na develop e main e gera uma nova tag
+	git flow hotfix finish 1.1 # faz o merge na develop e main e gera uma nova tag
 ```
