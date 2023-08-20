@@ -96,6 +96,12 @@ git branch
 git checkout nomeBranch
 ```
 
+## Criação de um branch a partir de outro branch
+
+```sh
+git checkout -b feature4 develop
+```
+
 # Git Flow (Equipe)
 
 ## Iniciar o Git Flow
@@ -151,4 +157,16 @@ git flow hotfix finish 1.1
 
 ```sh
 git tag
+```
+
+# Merge
+
+## Merge de uma Branch na outra
+
+```sh
+# ir para Branch que ainda não tem as alterações
+git checkout main
+
+# copiar as alterações feitas na outra Branch
+git merge develop
 ```
