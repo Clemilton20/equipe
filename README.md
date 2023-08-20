@@ -113,3 +113,9 @@ git flow feature publish css
 ```sh
 git flow feature finish css
 ```
+
+## Criar uma versão de testes (Release)
+
+```sh
+git flow release start 1.0
+```
