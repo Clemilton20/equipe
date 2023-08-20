@@ -170,3 +170,13 @@ git checkout main
 # copiar as alterações feitas na outra Branch
 git merge develop
 ```
+
+# Resumo
+
+```sh
+main
+develop
+	feature - faz o merge apenas na develop
+	release - faz o merge na develop e main e gera uma nova tag
+	hotfix - faz o merge na develop e main e gera uma nova tag
+```
