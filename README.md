@@ -138,3 +138,9 @@ git flow hotfix pulish 1.1
 # Finalizar, excluir e publicar na Develop e Main
 git flow hotfix finish 1.1
 ```
+
+## Ver as tags das versões produzidas pela release (Testes) e hotfix (Correções)
+
+```sh
+git tag
+```
