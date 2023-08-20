@@ -101,3 +101,15 @@ git flow init
 ```sh
 git flow feature start css
 ```
+
+## Publicar as alterações da Branch atual na Develop
+
+```sh
+git flow feature publish css
+```
+
+## Finalizar, transferir para a Develop e excluir a Branch atual
+
+```sh
+git flow feature finish css
+```
