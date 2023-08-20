@@ -125,3 +125,16 @@ git flow release start 1.0
 ```sh
 git flow release finish 1.0
 ```
+
+## Fazer pequnas correções na versão final
+
+```sh
+# Criar
+git flow hotfix start 1.1
+
+# Publicar e deixar aberta para a equipe
+git flow hotfix pulish 1.1
+
+# Finalizar, excluir e publicar na Develop e Main
+git flow hotfix finish 1.1
+```
