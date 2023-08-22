@@ -56,6 +56,12 @@ git checkout 4eb96e7
 git diff arquivo.php
 ```
 
+## Restaurar ao último estado salvo
+
+```sh
+git restore arquivo.php
+```
+
 ## Enviar para GitHub (Upload)
 
 ```sh
